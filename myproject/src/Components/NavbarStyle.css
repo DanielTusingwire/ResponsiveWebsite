@@ -2,14 +2,24 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color:#1b2430;
-    padding: 20px 100px;
+    background-color:#ffffff;
+    padding: 10px 00px;
     box-shadow: 0 5px rgb(0 , 0 , 0, 0.06);
+    margin-top: 40px;
+    position: relative;
+    margin: 50px 6%;
+    border-radius: 10px;
+}
+#menu{
+    margin-right: 40px;
 }
 #navbar{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#logo-15{
+    margin-left: 40px;
 }
 
 #navbar li{
@@ -20,26 +30,29 @@ position: relative;
 
 #navbar li a{
 text-decoration: none;
-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
 font-size: 1.3rem;
 font-weight: 600;
 transition: 0.3s ease-in-out;
 
 }
+#navbar li a.active{
+    transition: 0.7s ease-in-out;
+}
 
 #navbar li a:hover,
 #navbar li a.active{
-color: #17cf97;
+color: #EE7D00;
 }
 
 #navbar li a:hover::after,
 #navbar li a.active:after{
     content: "";
     width: 30%;
-    height: 2px;
-    background: #17cf97;
+    height: 3px;
+    background:#EE7D00;
     position:absolute;
-    bottom: -5px;
+    bottom: -6px;
     left: 20px;
 }
 #mobile{
@@ -58,7 +71,7 @@ color: #17cf97;
         justify-content: start;
         /* i want to separete it from nav bar */
         position: fixed;
-        top: 90px;
+        top: 150px;
         right: -330px;
         width: 300px;
         height: 100vh;
