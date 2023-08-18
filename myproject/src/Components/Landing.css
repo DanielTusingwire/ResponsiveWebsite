@@ -1,0 +1,39 @@
+landing{
+display: flex;
+padding: 20px 100px;
+margin-top: -200px;
+background:#EE7D00 ;
+/* margin: 0; */
+color: aliceblue;
+height: 700px;
+}
+landing .leftContent{
+    width: 50%;
+   
+}
+
+.leftContent .LandTitle{
+    font-size:55px ;
+    /* width: 100%; */
+    font-weight: 700px ;
+    margin-top: 200px;
+    word-wrap: break-word;
+    
+
+    
+}
+
+.leftContent .LandP{
+    font-size:1.3rem ;
+    font-weight: 200px;
+    width: 100%;
+    margin-top: 20px;
+    
+
+}
+
+.RightContent img{
+    width: 80%;
+    margin-left: 50px;
+    margin-top: 200px;
+}
