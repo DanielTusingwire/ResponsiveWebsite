@@ -1,0 +1,171 @@
+/* Base styles for larger screens */
+middle {
+    display: flex;
+    padding: 60px 180px;
+    color: rgb(0, 0, 0);
+    height: 100%;
+    margin-top: -100px;
+}
+
+middle .WordContent {
+    width: 50%;
+}
+
+.WordContent .LandTitle {
+    font-size: 55px;
+    font-weight: bolder;
+    margin-top: 200px;
+    word-wrap: break-word;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+
+.WordContent .LandP {
+    font-size: 1.3rem;
+    font-weight: 200;
+    width: 100%;
+    margin-top: 20px;
+    font-family: 'Helvetica Neue';
+}
+
+.WordContent #landButton {
+    margin-top: 40px;
+    height: 45px;
+    border-radius: 5px;
+    border: 3px solid white;
+    background: #EE7D00;
+}
+
+.WordContent #landButton .landButton {
+    padding: 20px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ImageContent img {
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 200px;
+}
+
+/* Media query for screens with a max-width of 768px (typical mobile devices) */
+@media screen and (max-width: 768px) {
+    middle {
+        flex-direction: column;
+        padding: 40px 20px;
+        margin-top: -180px;
+    }
+
+    middle .WordContent {
+        width: 100%;
+    }
+    .WordContent .LandTitle {
+        font-size: 35px;
+    }
+    .ImageContent{
+        margin-left: -50px;
+        }
+
+    .ImageContent img {
+        margin-left: 0;
+        margin-top: 40px;
+        width: 100%;
+    }
+
+}
+
+
+middle2 {
+    display: flex;
+    padding: 10px 180px;
+    color: rgb(0, 0, 0);
+    height: 100%;
+    margin-top: -100px;
+}
+
+middle2 .WordContent2 {
+    width: 50%;
+}
+
+.WordContent2 .LandTitle {
+    font-size: 55px;
+    font-weight: bolder;
+    margin-top: 200px;
+    word-wrap: break-word;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+
+.WordContent2 .LandP {
+    font-size: 1.3rem;
+    font-weight: 200;
+    width: 100%;
+    margin-top: 20px;
+    font-family: 'Helvetica Neue';
+}
+
+.WordContent2 #landButton {
+    margin-top: 40px;
+    height: 45px;
+    border-radius: 5px;
+    border: 3px solid white;
+    background: #EE7D00;
+}
+
+.WordContent2 #landButton .landButton {
+    padding: 20px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: 0.3s ease-in-out;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ImageContent2{
+margin-left: -80px;
+margin-bottom: 20px;
+}
+
+.ImageContent2 img {
+    width: 90%;
+    margin-top: 200px;
+}
+
+@media screen and (max-width: 768px) {
+    middle2{
+    flex-direction: column;
+    padding: 40px 20px;
+    margin-top: -300px;
+
+    }
+    middle2 .WordContent2 {
+        width: 100%;
+        margin-top: -100px;
+    }
+
+    .WordContent2 .LandTitle {
+        /* margin-top: -880px; */
+        font-size: 35px;
+    }
+
+    .ImageContent2{
+margin-left: -50px;
+margin-top: 100px;
+margin-bottom: -100px;
+}
+
+
+    .ImageContent2 img {
+       width: 100%; 
+       margin-left: 0;
+    
+
+    }
+
+
+}

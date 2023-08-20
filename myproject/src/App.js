@@ -1,11 +1,13 @@
-import LandingPage from "./Components/LandingPage";
+import LandingSection from "./Components/LandingSection";
+import MiddleSection from "./Components/MiddleSection";
 import Navbar from "./Components/Navbar";
 
 function App() {
   return (
   <div>
 <Navbar></Navbar>
- <LandingPage></LandingPage>
+<LandingSection></LandingSection>
+ <MiddleSection></MiddleSection>
  </div>
  
  

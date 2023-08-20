@@ -3,11 +3,11 @@ nav{
     align-items: center;
     justify-content: space-between;
     background-color:#ffffff;
-    padding: 10px 00px;
+    padding: 10px 50px;
     box-shadow: 0 5px rgb(0 , 0 , 0, 0.06);
     margin-top: 40px;
     position: relative;
-    margin: 50px 6%;
+    margin: 50px 12%;
     border-radius: 10px;
 }
 #menu{
@@ -60,10 +60,29 @@ color: #EE7D00;
 }
 
 #mobile i {
-    color: white;
+    color: rgb(0, 0, 0);
+    padding-right: 30px;
 }
 
 @media screen and (max-width:769px) {
+
+    nav{
+       position: fixed;
+        background-color:#fcfcfc;
+        box-shadow: 0 5px 6px rgba(0, 0, 0, 0.06);
+        /* margin-top: 0px; */
+        margin: 0;
+        border-radius: 0;
+        z-index: 1000;
+        top: 0;
+        width: 100%;
+        padding: 10px 0;
+        
+   
+    }
+    #logo-15{
+        margin-left: 20px;
+    }
     #navbar{
         display: flex;
         flex-direction: column;
@@ -71,15 +90,18 @@ color: #EE7D00;
         justify-content: start;
         /* i want to separete it from nav bar */
         position: fixed;
-        top: 150px;
-        right: -330px;
-        width: 300px;
+        top: 75px;
+        right: -1030px;
+        width: 100%;
         height: 100vh;
-        background: #1b2430;
+        background: #ffffff;
         box-shadow: 0 40px 60px rgba(0, 0n, 0, 0.1);
-        padding: 40px 0 0 10px;
+        padding: 40px 0 0 30px;
         transition: 0.3s ease-in-out;
     } 
+    #navbar .serviceButton{
+        
+    }
     #navbar.active{
         right: 0px;
     }
@@ -92,7 +114,9 @@ color: #EE7D00;
     }
 
     #mobile i {
-        font-size: 20px;
+        font-size: 30px;
         cursor: pointer;
     }
 }
+
+
