@@ -3,11 +3,11 @@ nav{
     align-items: center;
     justify-content: space-between;
     background-color:#ffffff;
-    padding: 10px 00px;
+    padding: 10px 50px;
     box-shadow: 0 5px rgb(0 , 0 , 0, 0.06);
     margin-top: 40px;
     position: relative;
-    margin: 50px 6%;
+    margin: 50px 12%;
     border-radius: 10px;
 }
 #menu{
@@ -69,15 +69,19 @@ color: #EE7D00;
     nav{
        position: fixed;
         background-color:#fcfcfc;
-        box-shadow: 0 5px rgb(0 , 0 , 0, 0.06);
+        box-shadow: 0 5px 6px rgba(0, 0, 0, 0.06);
         /* margin-top: 0px; */
         margin: 0;
         border-radius: 0;
         z-index: 1000;
         top: 0;
         width: 100%;
+        padding: 10px 0;
         
    
+    }
+    #logo-15{
+        margin-left: 20px;
     }
     #navbar{
         display: flex;
@@ -87,7 +91,7 @@ color: #EE7D00;
         /* i want to separete it from nav bar */
         position: fixed;
         top: 75px;
-        right: -830px;
+        right: -1030px;
         width: 100%;
         height: 100vh;
         background: #ffffff;
