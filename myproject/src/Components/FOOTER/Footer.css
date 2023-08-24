@@ -1,0 +1,122 @@
+#smallContainer{
+background: #DEF3F5;
+padding: 20px 180PX;
+display: flex;
+/* align-items: center; */
+align-content: center;
+vertical-align: middle;
+
+}
+
+#smallContainer .para{
+font-size: 25px;
+font-weight: bold;
+word-wrap: break-word;
+width: 400px;
+margin-right: 80px;
+
+
+}
+
+
+
+#smallContainer .textBox input{
+background: #F7901F;
+padding: 15px;
+border: none;
+width: 250px;
+color: white;
+font-size: 15px;
+vertical-align: middle;
+} 
+
+#smallContainer .textBox input::placeholder{
+    color: white;
+}
+#smallContainer .textBox input:focus{
+    outline: none;
+}
+#smallContainer .textBox .email{
+   border-color: #ffffff; 
+   /* border-left: 1px solid; */
+   border-top-right-radius: 5px;
+   border-bottom-right-radius: 5px;
+   margin-left: -1px;
+}
+
+#smallContainer .textBox .name{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+ }
+
+ #smallContainer .textBox .sendBtn{
+    background: #F7901F;
+padding: 15px;
+border: none;
+width: 60px;
+height: 60px;
+color: white;
+font-size: 15px;
+margin-left: 5px;
+border-radius: 100%;
+ }
+
+ .separator{
+background-color: rgb(255, 255, 255);
+height: 30px; 
+width: 1px;
+display:inline-block;
+margin-top: 15px;
+vertical-align: middle;
+position: absolute;
+ }
+
+ #bigRectangle{
+    background: #0A5055;
+    padding: 40px 180PX;
+ }
+
+ #bigRectangle .content{
+   
+    /* padding: 40px 180PX; */
+    display: flex;
+    color: #ffffff;
+ }
+
+ #bigRectangle .section{
+    margin-right: 150px;
+    /* display: grid; */
+  
+ }
+ #bigRectangle .section h5{
+    color: #02A2AC;
+    font-size: 20px;
+ }
+
+ #bigRectangle .section li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+    margin-top: 20px;
+    }
+
+    #bigRectangle .section ul{
+        margin-left: -20px;
+    }
+
+    #bigRectangle .section li a{
+        text-decoration: none;
+        color: #ffffff;
+       
+    }
+    #bigRectangle .line{
+        content: none;
+        background: #ffffff;
+        height: 1px;
+        /* margin-left: 180px;
+        margin-right: 180px; */
+        /* position: absolute; */
+        margin-top: 30px;
+        
+        
+    }

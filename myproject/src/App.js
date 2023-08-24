@@ -1,6 +1,7 @@
 import LandingSection from "./Components/LandingSection";
 import MiddleSection from "./Components/MiddleSection";
 import Navbar from "./Components/Navbar";
+import Footer from "./Components/FOOTER/Footer";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
 <Navbar></Navbar>
 <LandingSection></LandingSection>
  <MiddleSection></MiddleSection>
+ <Footer/>
  </div>
  
  
